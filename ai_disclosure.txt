@@ -1,0 +1,15 @@
+General AI disclosure
+GAI tool and version: ChatGPT, GPT-6
+Date consulted: 9/26/26
+
+Code attribution
+Exact prompts used to generate the code:
+1. Can you write a C++ program that finds an IPv4 address in a line of text? It might have a port after it. It should keep asking for input until I type END. I can’t use regex or functions like stoi.
+2. Can you make sure each part of the IP is between 0 and 255 and doesn’t have leading zeros?
+3. Can you check the port too? It should be between 0 and 65535, and if the port is wrong, the IP shouldn’t count either.
+4. I noticed something like 1.2.3.4.5 could get read as 1.2.3.4. Can you make it reject the whole thing instead?
+5. Can you also make it reject extra colons, empty parts, and other stuff stuck directly onto the IP?
+6. Can you make the output show the IP, its decimal value, and either the port or none?
+
+Verification Statement:
+I understand every line of submitted code with no blind copying. The code has been tested and works as intended. 
