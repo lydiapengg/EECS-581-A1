@@ -11,5 +11,7 @@ Exact prompts used to generate the code:
 5. Can you also make it reject extra colons, empty parts, and other stuff stuck directly onto the IP?
 6. Can you make the output show the IP, its decimal value, and either the port or none?
 
+ChatGPT generated the complete C++ program from the assignment requirements I provided. I did not modify the generated code. I then ran the program against valid addresses, invalid octets and ports, leading zeros, extra punctuation, and a valid address following an invalid candidate. The results matched the expected behavior for those cases. I am not aware of any unresolved bugs from my testing.
+
 Verification Statement:
 I understand every line of submitted code with no blind copying. The code has been tested and works as intended. 
